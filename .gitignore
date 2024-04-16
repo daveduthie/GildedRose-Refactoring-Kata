@@ -9,3 +9,5 @@ vendor
 venv
 **/DS_Store/*
 **/.DS_Store/*
+/.lsp/.cache/*.json
+/.clj-kondo/.cache
