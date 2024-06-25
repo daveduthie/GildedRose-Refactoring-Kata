@@ -26,7 +26,7 @@
                  2
                  (Long/parseLong (first args)))
         store (x/make-store fixture)]
-    (dotimes [day n-days]
+    (dotimes [day (inc n-days)]
       (println "-------- day" day "--------")
       (print-store store)
       (x/update-quality! store))))
