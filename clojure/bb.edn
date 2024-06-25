@@ -1,0 +1,3 @@
+{:tasks
+ {test (clojure "-M:test")
+  test:watch (clojure "-M:test --watch")}}
